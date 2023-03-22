@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+
+body {
+  font-size: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.block {
+  width: 30vw;
+  height: 30vw;
+  background-color: #000;
+  color: #ffff;
+  padding: 1rem;
+}
+.left {
+  float: left;
+  margin-right: 10px;
+}
+.right {
+  float: right;
+  margin-left: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+section {
+  background-color: aliceblue;
+  border: 1px solid rgb(187, 75, 75);
+  padding: 1rem;
+  /*overflow: auto;*/
+  display: flow-root;
+}
